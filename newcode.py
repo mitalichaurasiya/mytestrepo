@@ -10,7 +10,7 @@ df_nan = pd.DataFrame(data_with_nan)
 print("\nOriginal DataFrame with NaNs:")
 print(df_nan)
 
-# Check for missing values
+##Check for missing values
 print("\nMissing values (True if missing):")
 print(df_nan.isnull())
 
